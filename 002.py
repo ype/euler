@@ -24,10 +24,9 @@ def fastFib(n):
 def solution(n):
     totalsum = 0
     for i in range(0,n):
-        if round(fastFib(i)) % 2 is 0:
-            if(round(fastFib(i)) <= 4000000):
-                totalsum += round(fastFib(i))
-        elif(round(fastFib(i)) >= 4000001):
+        if round(fastFib(i)) % 2 is 0 and round(fastFib(i)) <= 4000000:
+            totalsum += round(fastFib(i))
+        elif(round(fastFib(i)) >= 4000000):
             return totalsum
 
 print(solution(40))
