@@ -9,7 +9,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 """
 
 def solution(a, b, n):
-    "Prints Multiple of 'a' and 'b' to a set range 'n'"
+    "Prints Multiples of 'a' and 'b' to a set range 'n'"
     totalsum = 0
     for i in range(0, n):
         if (i % a) is 0 or (i % b) is 0:
