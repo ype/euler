@@ -1,0 +1,4 @@
+* Thought I'd Share my Euler
+So I've been doing a bit of practice for interviews lately, and decided it might be good to work my way through some Project Euler problems.
+
+Here are my solution in Python.
